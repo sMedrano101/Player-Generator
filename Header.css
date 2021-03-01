@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.background-img {
+  height: 80vh; /*used to push input down */
+  background-image: cover;
+  /* background-attachment: fixed; */
+  opacity: 60%;
+}
+
+.title {
+  font-size: 50px;
+  color: #324144;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #5a563b,
+    0 0 25px #e9cf9c, 0 0 30px #fab48d, 0 0 35px red;
+  animation: blinker 0s linear infinite;
+}
+
+.headerWord {
+  margin-top: -290px;
+  font-size: 50px;
+  color: #324144;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #5a563b,
+    0 0 25px #e9cf9c, 0 0 30px #fab48d, 0 0 35px red;
+  animation: blinker 0s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.inputBox {
+  margin-top: 30%;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  border-radius: 9px;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 20%;
+  height: 70px;
+  border-radius: 9px;
+  border-color: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #5a563b;
+}
+
+button {
+  margin-left: 34px;
+  height: 30px;
+  border-radius: 9px;
+}
+
+.headerTitle {
+  font-size: 50px;
+}
+
+.smallTitle {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.inputArea {
+  margin-left: 34px;
+  margin-top: 43px;
+}
+
+.challenge-box {
+  border: white;
+  font-size: 10px;
+  margin-bottom: 40px;
+}
+
+.challenge-items {
+  display: flex;
+  margin-left: 500px;
+}
+
+.challenge-title {
+  color: white;
+  margin-left: 600px;
+  font: 10px;
+}
