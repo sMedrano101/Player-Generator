@@ -5,7 +5,7 @@ body {
 
 .background-img {
   height: 80vh; /*used to push input down */
-  background-image: cover;
+  /* background-image: cover; */
   /* background-attachment: fixed; */
   opacity: 60%;
 }
@@ -19,8 +19,9 @@ body {
 }
 
 .headerWord {
-  margin-top: -290px;
-  font-size: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+  align-content: center;
   color: #324144;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #5a563b,
     0 0 25px #e9cf9c, 0 0 30px #fab48d, 0 0 35px red;
@@ -45,8 +46,7 @@ input {
 }
 
 textarea {
-  margin-top: 10px;
-  width: 20%;
+  width: 40%;
   height: 70px;
   border-radius: 9px;
   border-color: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #5a563b;
@@ -69,7 +69,10 @@ button {
 
 .inputArea {
   margin-left: 34px;
-  margin-top: 43px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .challenge-box {
@@ -79,12 +82,11 @@ button {
 }
 
 .challenge-items {
-  display: flex;
-  margin-left: 500px;
+  /* display: flex;
+  margin-left: 500px; */
 }
 
 .challenge-title {
   color: white;
-  margin-left: 600px;
   font: 10px;
 }
